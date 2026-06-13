@@ -1,0 +1,6 @@
+﻿Title,Propiedad,Coeficiente de Pearson,Coeficiente de Spearman
+,Supuestos,1. Variables continuas 2. Relación lineal 3. Datos ~normales 4. Sin outliers extremos,Solo requiere que los datos sean ordinales o continuos. No asume linealidad ni normalidad
+,Datos que usa,Valores numéricos reales,"Rangos/orden de los datos. Convierte los valores a 1°, 2°, 3°... y luego calcula Pearson sobre esos rangos"
+,Rango,a,a
+,Qué mide,Relación lineal entre 2 variables,"Relación monotónica entre 2 variables. Monotónica = siempre sube o siempre baja, pero no necesariamente en línea recta"
+,Sensible a outliers,Muy sensible. Un solo valor extremo puede cambiar  drásticamente,Robusto. Los outliers se vuelven solo “el más alto” y afectan menos
